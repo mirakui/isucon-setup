@@ -1,0 +1,21 @@
+[user]
+  name = Issei Naruta
+  email = naruta@cookpad.com
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+[alias]
+  co = checkout
+  st = status
+  di = diff
+  br = branch
+  show-root = rev-parse --show-toplevel
+  stat = log --stat
+  ca = commit -va
+[core]
+  editor = /usr/bin/vim
+  pager = less
+  excludesfile = ~/.gitignore_global
